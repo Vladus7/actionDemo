@@ -8,4 +8,4 @@ jobs:
       - name: RUN 
         run : echo "testing"
       - name: RUN1
-        run : echo "testing main"  
+        run : echo "testing main 2"  
