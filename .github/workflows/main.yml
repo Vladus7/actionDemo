@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: RUN 
         run : echo "testing"
+      - name: RUN1
+        run : echo "testing1"  
