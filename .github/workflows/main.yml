@@ -2,6 +2,7 @@ name: My Workflow
 on: 
   pull_request:
     branches:
+      - main
       - 'releases_\d{4}'
       
 jobs:
