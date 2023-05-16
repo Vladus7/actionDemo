@@ -3,7 +3,7 @@ on:
   pull_request:
     branches:
       - main
-      - 'releases_\d{4}'
+      - 'releases_*'
       
 jobs:
   build:
