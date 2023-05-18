@@ -2,12 +2,13 @@ name: My Workflow
 on: 
   pull_request:
     branches:
-      - 'releases_\d{4}'
+      - main
+      - 'releases*'
       
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: RUN 
-        run : echo "testing releases"      
+        run : echo "testing main"      
 
